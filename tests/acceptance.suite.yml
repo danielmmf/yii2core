@@ -1,0 +1,11 @@
+actor: AcceptanceTester
+modules:
+    enabled:
+        - \Helper\Acceptance
+        - PhpBrowser:
+           url: 'http://localhost:8080/'
+           curl:
+               CURLOPT_RETURNTRANSFER: true
+        - Yii2:
+            part: orm
+            cleanup: false
