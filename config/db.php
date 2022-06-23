@@ -3,8 +3,8 @@
 return [
     'class' => 'yii\db\Connection',
     'dsn' => 'mysql:host=localhost;dbname=yii2basic',
-    'username' => 'root',
-    'password' => '',
+    'username' => 'debian-sys-maint',
+    'password' => 'bvgM01lASRGMFf0g',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
